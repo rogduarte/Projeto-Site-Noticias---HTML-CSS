@@ -1,0 +1,93 @@
+/**************************
+Seletor Universal */
+/*
+* {
+	border: 1px solid red;
+}
+*/
+/**************************
+Seletor de texto */
+/*
+h1 {
+	color: green;
+}*/
+/**************************
+Seletor de clase */
+/*
+
+.verde {
+	color: green;
+}
+*/
+/*
+p.verde {
+	color:green;
+}*/
+/*************************
+seletor de ID */
+
+/*#cabecalho {
+	border: 1px solid blue;
+}*/
+/*************************
+Seletor de filho */
+/*
+li>a{
+	color: red;
+	text-decoration: none;
+}/*
+/**************************
+Seletor de descendente
+*/
+/*
+p a {
+	color: green;
+}*/
+/**************************
+Seletor de irmão adjacente */
+/*
+h1+p{
+	color: red;
+}*/
+/***************************
+Seletor de irmão Geral*/
+/*h1~p {
+	color:orange;
+}*/
+/***************************
+Barra de navegação vertical */
+/*
+ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding:5px 20px;
+	background: url(../imagens/seta.png) no-repeat left center;
+
+}
+*/
+
+ul{
+	margin: 0;
+	padding:0;
+	list-style-type: none;
+}
+ul a{
+	text-decoration-style: none;
+	width: 200px;
+	height: 40px;
+	display:block;
+	color: #000;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(..imagens/menu.png) no-repeat left center;
+}
+a: hover {
+	background: #fff;
+	background-position: right bottom;
+	
+}
